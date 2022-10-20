@@ -150,5 +150,7 @@ average_charge = calc_average_charge(charges) #13270.4
 average_male_charge = calc_average_charge_male(insurance_records) #13956.75
 average_female_charge = calc_average_charge_female(insurance_records) #12569.57
 average_smoker_charge, average_non_smoker_charge = calc_average_smoker_charge() #32050.23, 8434.26
+smoker_non_smoker_charge_diff = average_smoker_charge - average_non_smoker_charge #23615.96
 
 counted_locations = count_locations(regions)
+
